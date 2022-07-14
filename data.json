@@ -1,0 +1,36 @@
+{
+    "data": [
+        {
+            "id": "00005d0fd1e142efb3f3c67819d7f630",
+            "username": "bill",
+            "text": "@lg My LG refrigerator has sheets of ice build up on the bottom every week. Any idea how to fix it?",
+            "comments": [
+                {
+                    "id": "00005d0fd1e142efb3f3c67819d7f631",
+                    "username": "john",
+                    "text": "@lg @bill You can't fix it."
+                },
+                {
+                    "id": "00005d0fd1e142efb3f3c67819d7f632",
+                    "username": "sam",
+                    "text": "@lg @bill There should be a drain that allows the moisture that is generated in the freezer to drain into a pan under the refrigerator where the heat from the compressor will evaporate it. There is a RED button on the back that you can press to fix this. Generally that drain gets clogging and allows the water to accumulate in the freezer and...it freezes."
+                },
+                {
+                    "id": "00005d0fd1e142efb3f3c67819d7f633",
+                    "username": "tim",
+                    "text": "@lg @bill I am also facing the same issue."
+                },
+                {
+                    "id": "00005d0fd1e142efb3f3c67819d7f634",
+                    "username": "arthur",
+                    "text": "@lg @bill Ignore it."
+                },
+                {
+                    "id": "00005d0fd1e142efb3f3c67819d7f635",
+                    "username": "jim",
+                    "text": "@lg @bill LG refrigerators are bad."
+                }
+            ]
+        }
+    ]
+}
