@@ -83,6 +83,11 @@ def tweet_to_words(tweet):
     words = [w for w in words if w not in stopwords.words("english")]
     words = [PorterStemmer().stem(w) for w in words]
     return words
+```
+
+<br>
+
+```python
 # Cleaning the Comments Text by removing Stop Words and Mentions
 for d in df["data"]:
     for c in d["comments"]:
@@ -116,6 +121,11 @@ def compute_vader_scores(text):
         "vader_positive": sid.polarity_scores(text)["pos"],
         "vader_compound": sid.polarity_scores(text)["compound"]
     }
+```
+
+<br>
+    
+```python
 for d in df["data"]:
     for c in d["comments"]:
         score = compute_vader_scores(c["cleantext"])
